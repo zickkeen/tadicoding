@@ -1,5 +1,38 @@
 {
+  "name": "bawasluprojectapi",
+  "version": "1.0.0",
+  "description":"Test",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "nodemon ./src/server.js",
+    "lint": "eslint ./src"
+  },
+  "keywords": [
+    "newProject"
+  ],
+  "author": "zickkeen",
+  "license": "MIT",
   "dependencies": {
-    "googleapis": "^103.0.0"
+    "@hapi/hapi": "^20.2.2",
+    "fs": "^0.0.1-security",
+    "googleapis": "^103.0.0",
+    "nanoid": "^3.1.22"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-react": "^7.30.0",
+    "nodemon": "^2.0.16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gcp.bojez.com/zickkeen/BawasluBackendProject.git"
   }
 }
